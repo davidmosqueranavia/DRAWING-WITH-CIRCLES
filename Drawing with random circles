@@ -1,0 +1,36 @@
+
+// SE CREAN DOS GRUPOS DE TRES VARIABLES PARA TRABAJAR EN LAS VARIABLES X Y Y
+float rap = 0;
+float por= 5;
+int rapor = 1;
+
+float rapy = 0;
+float pory= 8;
+int rapory = 1;
+
+void setup(){
+  size (500,500);
+ 
+}
+
+
+void draw (){
+  //background(100);
+  rap=rap + (por * rapor);
+    rapy=rapy + (pory * rapory);
+  
+if (rap > 400 || rap < 0){
+rapor = rapor * -1;
+  }
+  
+  
+
+ 
+
+      fill(random(225),5,random(225));
+      //ellipse (cub + rap, rub + rapy, 10,10);
+     ellipse (mouseX, mouseY, random (60),random(40));
+    }
+
+
+  
